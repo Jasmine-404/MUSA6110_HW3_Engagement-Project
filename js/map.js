@@ -2,7 +2,7 @@
 const mapboxglAccessToken = 'pk.eyJ1IjoiamFzbWluZTQwNCIsImEiOiJjbTEybGFoMXExMm93MnFwdjltNTVuYTY5In0.jcDywHe2QQm4DhVU0hPV9A';
 
 let firestoreMarkers = []; // 全局数组，存储 Firestore 标记
-let selectedLayer = 'heatmap'; // 定义为全局变量
+let selectedLayer = 'points'; // 定义为全局变量
 
 function removeFirestoreMarkers() {
   firestoreMarkers.forEach(marker => marker.remove()); // 移除所有动态标记
