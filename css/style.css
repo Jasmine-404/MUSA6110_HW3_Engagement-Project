@@ -31,7 +31,7 @@ body {
 
 /* 信息面板样式 */
 #info-panel {
-    flex: 2.5; /* 占 30% 宽度 */
+    flex: 2.5; /* 占 25% 宽度 */
     background-color: #f9f9f9;
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
@@ -40,7 +40,7 @@ body {
 
 /* 地图容器样式 */
 #map {
-    flex: 7.5; /* 占 70% 宽度 */
+    flex: 7.5; /* 占 75% 宽度 */
     position: relative;
     height: 100%; /* 必须确保地图高度占满父级 */
 }
