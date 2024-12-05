@@ -107,7 +107,7 @@ body {
 
 
 /* 滑动条样式 */
-#year-slider button:hover {
+#year-slider {
     width: 100%;
     margin: 10px 0;
 }
@@ -221,7 +221,7 @@ body {
 
 .legend {
     position: absolute;
-    bottom: 20px;
+    bottom: 50px;
     right: 10px;
     background-color: rgba(249, 249, 249, 0.7);
     padding: 10px;
