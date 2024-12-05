@@ -17,14 +17,15 @@ function initializeMap() {
       style: 'mapbox://styles/mapbox/streets-v12',
       center: [146.5, -32.5],
       zoom: 5,
-      attributionControl: false // 禁用默认 attribution
-    });
+      attributionControl: false, // 禁用默认 attribution
+      });
   
     map.addControl(new mapboxgl.NavigationControl());
   
     map.addControl(
       new mapboxgl.AttributionControl({
-        customAttribution: '<a href="https://doi.ala.org.au/doi/d05d323e-8f64-4315-8da0-c30ff709713a" target="_blank">Data Source: Atlas of Living Australia</a>'
+        customAttribution: '<a href="https://doi.ala.org.au/doi/d05d323e-8f64-4315-8da0-c30ff709713a" target="_blank">Data Source: Atlas of Living Australia</a> | <a href="https://www.flaticon.com/free-icons/koala" title="koala icons">Koala icons created by Freepik - Flaticon</a> <br> <a href="https://www.flaticon.com/free-icons/koala" title="koala icons">Koala icons created by Freepik - Flaticon</a>'
+
       })
     );
   

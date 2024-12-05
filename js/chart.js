@@ -39,7 +39,7 @@ function initializeChart() {
       .then(response => response.json())
       .then(data => {
         const chartData = processChartData(data, currentYear);
-        updateChart(chart, chartData); // 假设你已有这个函数来更新图表
+        updateChart(chart, chartData); 
       });
   }
   

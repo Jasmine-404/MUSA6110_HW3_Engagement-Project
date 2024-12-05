@@ -64,10 +64,14 @@ function setupReportForm(map, chart, loadDataFromFirestore) {
         currentMarker.remove();
       }
 
+      // Create a custom marker using an HTML element
+      const markerElement = document.createElement('div');
+      markerElement.className = 'custom-marker';
+
       // 在地图上添加新的标记
-      currentMarker = new mapboxgl.Marker({ color: "#007bff" }) // 蓝色小点
-        .setLngLat([lng, lat])
-        .addTo(map);
+      currentMarker = new mapboxgl.Marker({ element: markerElement }) // Use the custom element
+      .setLngLat([lng, lat])
+      .addTo(map);
 
       map.off("click", clickHandler); // 移除地图的点击事件监听器
     };

@@ -6,8 +6,7 @@ import { collection, getDocs } from "https://www.gstatic.com/firebasejs/11.0.2/f
 import { db } from './firebase-config.js';
 
 // Initialize map and barchart
-let map = initializeMap();
-
+const map = initializeMap();
 const chart = initializeChart();
 
 // Slide bar logic
