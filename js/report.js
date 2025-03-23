@@ -1,4 +1,4 @@
-import { collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js";
+import { collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore.js";
 import { db } from "./firebase-config.js";
 import {mapboxglAccessToken} from "./map.js"
 
